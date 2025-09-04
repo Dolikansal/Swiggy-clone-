@@ -2,21 +2,23 @@
   "name": "swiggy",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
-    "dev": "parcel index.html --open"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "dev": "parcel src/index.html --open"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
-    "@tailwindcss/postcss": "^4.1.11",
-    "parcel": "^2.15.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-redux": "^9.2.0",
-    "react-router": "^7.7.1",
+    "react-router": "^7.7.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "parcel": "^2.15.4",
     "tailwindcss": "^4.1.11"
   }
 }
